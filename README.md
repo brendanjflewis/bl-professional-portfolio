@@ -10,4 +10,4 @@ This content contains the beginnings of a profession portfolio.
 
 https://brendanjflewis.github.io/bl-professional-portfolio/
 
-![Screenshot](./assetts/images/portfolio-screenshot.jpg)
+![Screenshot](/assetts/images/portfolio-screenshot.jpg "screenshot")
