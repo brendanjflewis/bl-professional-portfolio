@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #B0C4DE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px 35px;
+    background-color: #696969;
+}    
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #B0C4DE;
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: #B0C4DE;
+}
+header nav {
+    margin: 7px 0;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+.about-me {
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+.about-me-big {
+    display: flex;
+    font-size: 70px;
+    margin: 2%;
+    flex-grow: 1;
+}
+
+.about-me-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+.about-me-bio {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    border-color: #696969;
+    margin: 1%;
+}
+
+.work {
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+.work-header {
+    display: flex;
+    font-size: 70px;
+    align-items: flex-end;
+    margin: 2%;
+}
+
+.cats {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+.contact-me-header {
+    display: flex;
+    font-size: 70px;
+    margin: 2%;
+}
+
+.links {
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+}
