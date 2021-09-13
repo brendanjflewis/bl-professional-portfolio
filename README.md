@@ -7,3 +7,7 @@ This content contains the beginnings of a profession portfolio.
 * Work
 * Contact Me
 * Resume
+
+https://github.com/brendanjflewis/bl-professional-portfolio.git
+
+file:///C:/Users/pipif/OneDrive/Desktop/Challenges/bl-professional-portfolio/index.html
