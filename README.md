@@ -8,6 +8,6 @@ This content contains the beginnings of a profession portfolio.
 * Contact Me
 * Resume
 
-https://github.com/brendanjflewis/bl-professional-portfolio.git
+https://brendanjflewis.github.io/bl-professional-portfolio/
 
-file:///C:/Users/pipif/OneDrive/Desktop/Challenges/bl-professional-portfolio/index.html
+![Screenshot](./assetts/images/portfolio-screenshot.jpg)
