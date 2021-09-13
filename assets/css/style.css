@@ -43,17 +43,16 @@ header nav ul li a {
 
 .about-me {
     display: flex;
-    flex: auto;
     justify-content: space-between;
     margin: 1%;
+    flex: auto;
 }
 
 .about-me-big {
     display: flex;
-    font-size: 70px;
+    font-size: 50px;
     margin: 2%;
-    border-right: 1px solid grey;
-    flex-grow: 1;
+    border-right: 5px solid grey;
 }
 
 .about-me-box {
@@ -68,12 +67,17 @@ header nav ul li a {
 }
 
 img {
-    max-width: 100%;
+    max-width: 80%;
     width: auto;
     height: auto;
     border-radius: 8px;
     border-color: #696969;
     margin: 1%;
+}
+
+p {
+    font-size: 2vw;
+    align-content: center;
 }
 
 .work {
@@ -84,9 +88,9 @@ img {
 
 .work-header {
     display: flex;
-    font-size: 70px;
+    font-size: 50px;
     align-items: flex-end;
-    border-right: 1px solid grey;
+    border-right: 5px solid grey;
     margin: 2%;
 }
 
@@ -103,8 +107,8 @@ img {
 
 .contact-me-header {
     display: flex;
-    font-size: 70px;
-    border-right: 1px solid grey;
+    font-size: 50px;
+    border-right: 5px solid grey;
     margin: 2%;
 }
 
