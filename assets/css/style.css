@@ -142,6 +142,13 @@
     margin: 10px;
     border-radius: 5px;
 }
+.gallery img:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 3px white, 0 0 3px white, 0 0 3px white;
+    font-weight: bold;
+}
 
 /* services section */
 #services{
