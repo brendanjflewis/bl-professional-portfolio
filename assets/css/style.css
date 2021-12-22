@@ -52,7 +52,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    background: url('/assets/images/blueimg.jpg') no-repeat center center/cover;
+    background: url('./assets/images/blueimg2.jpg') no-repeat center center/cover;
     height: auto;
     width: 100%;
     z-index: -1;
@@ -103,6 +103,7 @@
 #pic img{
     width: 300px;
     height: 300px;
+    border-radius: 5px;
 }
 #intro{
     display: flex;
@@ -139,6 +140,7 @@
     width: 360px;
     height: 240px;
     margin: 10px;
+    border-radius: 5px;
 }
 
 /* services section */
