@@ -2,70 +2,143 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./assets/css/style.css">
         <title>Professionl Portfolio</title>
     </head>
 
     <body>
        <header>
-            <h1>Brendan</h1>
-            <nav>
+            <nav class="navbar">
                 <!-- unordered list element for header -->
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-                <li>
-                    <a href="#Resume">Resume</a>
-                </li>
-            </ul>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                </ul>
             </nav>
         </header>
 
-       
-        <section class="about-me-container">
-
-            <div class="about-me-big">
-                <h1>About Me</h1>
-            </div> 
-
-            <div class="about-me-box">
-                <div class="about-me-bio">
-                    <img src="./assets/images/brendan-portfolio-image.jpg" alt="brendan-portfolio-image" />       
-                    <p>
-                    My name is Brendan Lewis. I am currently in a coding bootcamp to learn both front-end and back-end coding development. Below you can find my work and links to other social media.
-                    </p>
-                </div>    
+        <section id="home">
+            <div class="main">
+                <h1 class="headings">Hello<br>I am Brendan Lewis</h1>
+                <button class="btn">
+                    Hire me
+                </button>
             </div>
-
         </section>
 
-        <section class="work-container">
-
-            <div class="work-header">
-                <h1>Work</h1>
+        <section id="about">
+            <h1 class="headings">About Me</h1>
+            <div id="pic">
+                <img src="./assets/images/brendan-portfolio-image.jpg" alt="brendan-portfolio-image">
+                <div id="intro">
+                    <h2>BRENDAN LEWIS</h2>
+                    <p>My name is Brendan Lewis. I like I am currently in a coding bootcamp to learn both front-end and back-end coding development. Below you can find my work and links to other social media.</p>
+                </div>
             </div>
+        </section>
 
-            <div class="run-buddy">
-                <h2>Run Buddy</h2>
-            </div>
-
-            <div class="music-finder">
+        <section id="portfolio">
+            <h1 class="headings">Work</h1>
+            <div class="gallery">
+                <img src="/assets/images/run-buddy-screenshot.jpg" alt="">
+                <img src="/assets/images/readme.gif" alt="">
+                <img  src=""  alt="" >
                 <a href="https://mtlankenau.github.io/music-finder/" target="_blank">Music Finder</a>
-            </div>
+                <a href="https://github.com/wolfgarb/pantry-hacker/" target="_blank">Pantry Hacker</a>
 
-            <div class="pantry-hacker">
-                <a href="https://github.com/wolfgarb/pantry-hacker" target="_blank">Pantry Hacker</a>
             </div>
-
         </section>
-    
+
+        <!-- <section id="services">
+            <h1 class="headings">SERVICES</h1>
+            <div class="row">
+                <div class="box">
+                    <h1 class="headings">Website <br> Design</h1>
+                    <p>Website Design</p>
+                </div>
+                <div class="box">
+                    <h1 class="headings">UX/UI <br> Design</h1>
+                    <p>UI/UX</p>
+                </div>
+                <div class="box">
+                    <h1 class="headings">Backend</h1>
+                    <p>Backend</p>
+                </div>
+            </div>
+        </section> -->
+
+        <section id="contact">
+            <h1 class="headings">Contact</h1>
+            <form action=""></form>
+            <article class="links">
+                <ul>
+                    <li><a href="mailto:brendanjflewis@icloud.com">Email</a</li>
+                    <li><a href="http://github.com/brendanjflewis/">Github</a></li>
+                    <li><a href="http://www.linkedin.com/in/brendan-lewis-182178161/">LinkedIn</a></li>
+                    <li><a href="http://twitter.com/brendansmyspace">Twitter</a></li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- <footer class="contact-me-container">
+
+            <div class="contact-me-header">
+                <h1>Contact Me</h1>
+            </div>
+
+            <article class="links">
+                <a href="mailto:brendanjflewis@icloud.com">Email</a>
+                <a href="http://github.com/brendanjflewis/bl-professional-portfolio">Github</a>
+            </article>
+
+        </footer> -->
+    </body>
+</html>
+
+
+
+
+ <!-- <div class="container">
+            <section class="about-me-container">
+
+                <div class="about-me-big">
+                    <h1>About Me</h1>
+                </div> 
+
+                <div class="about-me-box">
+                    <div class="about-me-bio">
+                        <img src="./assets/images/brendan-portfolio-image.jpg" alt="brendan-portfolio-image" />       
+                        <p>
+                        My name is Brendan Lewis. I like I am currently in a coding bootcamp to learn both front-end and back-end coding development. Below you can find my work and links to other social media.
+                        </p>
+                    </div>    
+                </div>
+
+            </section>
+
+            <section class="work-container">
+
+                <div class="work-header">
+                    <h1>Work</h1>
+                </div>
+
+                <div class="run-buddy">
+                    <h2>Run Buddy</h2>
+                </div>
+
+                <div class="music-finder">
+                    <a href="https://mtlankenau.github.io/music-finder/" target="_blank">Music Finder</a>
+                </div>
+
+                <div class="pantry-hacker">
+                    <a href="https://github.com/wolfgarb/pantry-hacker" target="_blank">Pantry Hacker</a>
+                </div>
+
+            </section>
+        </div>
 
         <footer class="contact-me-container">
 
@@ -78,7 +151,4 @@
                 <a href="http://github.com/brendanjflewis/bl-professional-portfolio">Github</a>
             </article>
 
-        </footer>
-        
-    </body>
-</html>
+        </footer> -->
