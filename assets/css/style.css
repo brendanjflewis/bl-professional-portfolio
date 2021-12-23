@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 /* navbar */
 .navbar{
     display: flex;
@@ -94,9 +96,11 @@
 #about{
     display: flex;
     flex-direction: column;
+    background-color: white;
+    /* background: linear-gradient(to bottom, white, rgba(0,0,0,0.9)); */
     box-sizing: border-box;
     padding: 20px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 #pic{
     display: flex;
@@ -128,6 +132,7 @@
     display: flex;
     flex-direction: column;
     background-color: rgba(0,0,0,0.9);
+    /* background: linear-gradient(to bottom, rgba(0,0,0,0.9), white); */
     color: white;
     align-items: center;
     padding: 20px;
@@ -149,7 +154,7 @@
     cursor: pointer;
     background-color: white;
     color: black;
-    box-shadow: 0 0 3px white, 0 0 3px white, 0 0 3px white;
+    box-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white;
     font-weight: bold;
 }
 
@@ -265,7 +270,7 @@
 .links ul li a:hover{
     background-color: black;
     color: white;
-    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 10px black;
 }
 
 /* body {
